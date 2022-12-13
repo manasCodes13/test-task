@@ -1,5 +1,4 @@
 import React from 'react'
-import course1 from "../../assets/images/course1.png"
 import Chips from '../chips/Chips'
 import { GoLocation } from 'react-icons/go'
 

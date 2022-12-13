@@ -1,17 +1,14 @@
-import { useAtom } from "jotai";
-import React, { useState } from "react";
+import React from "react";
 import Chips from "../../components/chips/Chips";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import Search from "../../components/Search/Search";
 import ToggleSwitch from "../../components/ToogleSwitch/ToggleSwitch";
-import { switchPosition } from "../../store/global";
 import course1 from "../../assets/images/course1.png"
 import course2 from "../../assets/images/course2.png"
 
 
 const SearchJobs = () => {
-  const [value, setValue] = useAtom(switchPosition);
   return (
     <div className="w-full flex justify-center items-center flex-col mt-5">
       <span className="mt-3 font-semibold text-lg">
